@@ -1,3 +1,14 @@
-# 体素化人物动画
-利用GPUInstancing以及BakeMesh实时渲染多个方块，滑动动画待更新
-![image](https://github.com/nnobe/VoxelizationAnimation/blob/master/test.gif)  
+# 图集打包工具
+
+## 可选参数
+* 参数1：项目名，生成的文件都拼接此名称。缺省值为文件夹名。 <br>
+* 参数2：图集最大尺寸，尺寸要求为2的次幂。缺省值为2048。 <br>
+* 参数3：multipack，超过图集最大尺寸，生成多份图集。缺省值为False。 <br>
+* 参数4：square，使用强制正方形图集打包。缺省值为False。 <br>
+
+## 参数使用
+* PackagedAtlasTool_w4_2048_null_square : w4项目最大尺寸为2014单图集，使用强制正方形图集打包。 <br>
+* PackagedAtlasTool_w4 : w4项目最大尺寸为2014单图集，不使用强制正方形图集打包。 <br>
+
+## 使用指南
+* 通过复制多个工具副本修改执行程序名，即可方便地选择性使用工具进行打包。 <br>
